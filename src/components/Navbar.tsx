@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="backdrop-blur-md shadow-md p-4 fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold text-white">
+        <Link to="/" className="text-xl font-bold text-white">
           NASYAYA COLLECTION
         </Link>
 
