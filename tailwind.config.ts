@@ -91,7 +91,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        handwriting: ['Pacifico', 'cursive'], // Menukar fon tulisan tangan kepada Pacifico
+        handwriting: ['Caveat', 'cursive'], // Menambah fon tulisan tangan
       },
     },
   },
