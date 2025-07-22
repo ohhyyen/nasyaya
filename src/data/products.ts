@@ -37,7 +37,7 @@ for (let i = 0; i < 10; i++) {
     name: momotaroNames[i],
     description: `Seluar jeans denim premium dari Momotaro, buatan tangan dengan kualiti terbaik dan rekaan klasik.`,
     price: price,
-    imageUrl: momotaroImages[i % momotaroImages.length],
+    imageUrls: [momotaroImages[i % momotaroImages.length], momotaroImages[(i + 1) % momotaroImages.length]], // Contoh: 2 gambar per produk
     category: "Pakaian",
   });
 }
@@ -76,7 +76,7 @@ for (let i = 0; i < 10; i++) {
     name: evisuNames[i],
     description: `Seluar jeans Evisu dengan rekaan ikonik dan kualiti denim Jepun yang terkenal.`,
     price: price,
-    imageUrl: evisuImages[i % evisuImages.length],
+    imageUrls: [evisuImages[i % evisuImages.length], evisuImages[(i + 1) % evisuImages.length]], // Contoh: 2 gambar per produk
     category: "Pakaian",
   });
 }
@@ -107,7 +107,7 @@ for (let i = 0; i < 15; i++) {
     name: `Pati Wangian Kasturi Asli ${i + 1}`,
     description: `Wangian kasturi asli dengan aroma tahan lama, sesuai untuk kegunaan harian dan ibadah.`,
     price: price,
-    imageUrl: fragranceImages[i % fragranceImages.length],
+    imageUrls: [fragranceImages[i % fragranceImages.length], fragranceImages[(i + 1) % fragranceImages.length]], // Contoh: 2 gambar per produk
     category: "Wangian",
   });
 }

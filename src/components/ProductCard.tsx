@@ -13,7 +13,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
     <Card className="w-full max-w-sm flex flex-col">
       <CardHeader className="p-0">
         <img
-          src={product.imageUrl}
+          src={product.imageUrls[0]} // Menggunakan gambar pertama dari array
           alt={product.name}
           className="w-full h-48 object-cover rounded-t-lg"
         />
