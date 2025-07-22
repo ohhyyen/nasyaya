@@ -4,10 +4,10 @@ const Index = () => {
   return (
     <div className="flex-grow flex flex-col items-center justify-center text-center max-w-2xl mx-auto text-white p-4">
       <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-64 sm:h-96 mb-2" />
-      <h1 className="text-4xl font-custom font-light mb-2"> {/* Kekalkan font-custom di sini */}
+      <h1 className="text-2xl font-custom font-light mb-2"> {/* Tukar text-4xl kepada text-2xl di sini */}
         Selamat Datang ke
       </h1>
-      <h1 className="text-4xl font-light mb-6"> {/* Buang font-custom di sini */}
+      <h1 className="text-4xl font-light mb-6">
         NASYAYA COLLECTION
       </h1>
       <p className="text-lg mb-8">
