@@ -6,8 +6,12 @@ import { Shirt, SprayCan } from "lucide-react";
 const Index = () => {
   return (
     <div className="flex-grow flex flex-col items-center justify-center text-center max-w-2xl mx-auto text-white p-4">
+      <h1 className="text-4xl font-handwriting font-light mb-2">
+        Selamat Datang ke
+      </h1>
+      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-24 sm:h-32 mb-6" />
       <h1 className="text-4xl font-handwriting font-light mb-6">
-        Selamat Datang ke NASYAYA COLLECTION!
+        NASYAYA COLLECTION!
       </h1>
       <p className="text-lg mb-8">
         Terokai koleksi pakaian moden dan wangian solat eksklusif kami.
