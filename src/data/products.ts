@@ -108,15 +108,14 @@ if (momotaro0306SP) {
 const momotaro0201SP = dummyProducts.find(p => p.id === 'momotaro-jeans-4');
 if (momotaro0201SP) {
   momotaro0201SP.imageUrls = [
-    "/pasted-image-2025-07-22T10-35-26-080Z-1.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-2.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-3.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-4.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-5.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-6.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-7.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-8.jpeg",
-    "/pasted-image-2025-07-22T10-35-26-080Z-9.jpeg",
+    "/imgi_7_momotaro-0201-slim-fit-straight-1_460x.jpg",
+    "/imgi_9_momotaro-0201-slim-fit-straight-3_460x.jpg",
+    "/imgi_10_momotaro-0201-slim-fit-straight-4_460x.jpg",
+    "/imgi_11_momotaro-0201-slim-fit-straight-5_460x.jpg",
+    "/imgi_5_momotaro-0201-slim-fit-straight-6_460x.jpg",
+    "/imgi_6_momotaro-0201-slim-fit-straight-7_460x.jpg",
+    "/imgi_12_momotaro-0201-slim-straight-vintage-label-2_460x.jpg",
+    "/imgi_16_momotaro-0906-v-wide-jeans-5_300x.jpg",
   ];
 }
 
