@@ -154,6 +154,26 @@ if (momotaro0401SP) {
   ];
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0301SP (Slim Straight) (momotaro-jeans-7)
+const momotaro0301SP = dummyProducts.find(p => p.id === 'momotaro-jeans-7');
+if (momotaro0301SP) {
+  momotaro0301SP.imageUrls = [
+    "/imgi_3_5c8dfb0121dd9aaf7acde9ca79ed4be3.jpg",
+    "/imgi_5_3848fbdfb43f68f97af3f824bedce893.jpg",
+    "/imgi_6_7dfe85401fd9266d7a0a191da00267cd.jpg",
+    "/imgi_10_b2b5f16be5a73bcc1dbb7285b4514cb6.jpg",
+    "/imgi_11_cee70208dec491b76723ad6c7df070ee.jpg",
+    "/imgi_12_4d63a597aad0900ffbb71932a85e3964.jpg",
+    "/imgi_13_9177c82d8818c91dd4fbe52f12b15f31.jpg",
+    "/imgi_14_707ee98fb9e8c945f9514a940f53ce8c.jpg",
+    "/imgi_15_d8054f7ac50dba1b4887083982129d7d.jpg",
+    "/imgi_16_934aa00cebdabab74ac9cbebc7626903.jpg",
+    "/imgi_17_0727e49ee41278c5d3c7a6c435b582f9.jpg",
+    "/imgi_19_a5b5e9fb8420f0bb4ecb45d7d01395ab.jpg",
+    "/imgi_20_04e723c6d51c8ec75e82c9bc0c160fe8.jpg",
+  ];
+}
+
 
 // 10 produk Evisu Jeans
 const evisuImages = [
