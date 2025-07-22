@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Remove Google Fonts import as we're using a local font */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/myfont.ttf') format('truetype'); /* Adjust path and format as needed */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @layer base {
   :root {
@@ -98,8 +107,8 @@
   }
 
   body {
-    @apply text-foreground;
-    background-image: url('/background.jpg'); /* Changed to local path */
+    @apply text-foreground font-custom; /* Apply custom font to body */
+    background-image: url('/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
