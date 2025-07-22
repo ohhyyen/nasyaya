@@ -251,6 +251,17 @@ if (evisu2005) {
   evisu2005.isSoldOut = true;
 }
 
+const evisu2008 = dummyProducts.find(p => p.id === 'evisu-jeans-5');
+if (evisu2008) {
+  evisu2008.imageUrls = [
+    "/imgi_1_19231799_42502166_1000.jpg",
+    "/imgi_2_19231799_42500768_1000.jpg",
+    "/imgi_3_19231799_42502167_1000.jpg",
+    "/imgi_4_19231799_42500766_1000.jpg",
+    "/imgi_5_19231799_42501308_1000.jpg",
+  ];
+}
+
 // Produk Wangian (15 items)
 const fragranceImages = [
   "/wangian-1.jpg",
