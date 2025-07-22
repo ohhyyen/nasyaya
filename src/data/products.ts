@@ -87,20 +87,19 @@ if (momotaro0405SP) {
 const momotaro0306SP = dummyProducts.find(p => p.id === 'momotaro-jeans-3');
 if (momotaro0306SP) {
   momotaro0306SP.imageUrls = [
-    "/pasted-image-2025-07-22T10-30-22-358Z-1.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-2.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-3.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-4.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-5.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-6.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-7.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-8.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-9.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-10.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-11.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-12.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-13.jpeg",
-    "/pasted-image-2025-07-22T10-30-22-358Z-14.jpeg",
+    "/imgi_5_DSCF6668__00357.jpg",
+    "/imgi_7_DSCF6672__76496.jpg",
+    "/imgi_9_DSCF6682__67580.jpg",
+    "/imgi_11_DSCF6686__02393.jpg",
+    "/imgi_54_DSCF6689__18037.jpg",
+    "/imgi_55_DSCF7567__79980.jpg",
+    "/imgi_56_DSCF7569__17686.jpg",
+    "/imgi_58_DSCF7575__08723.jpg",
+    "/imgi_59_DSCF7576__84381.jpg",
+    "/imgi_60_DSCF7570__21982.jpg",
+    "/imgi_61_DSCF7573__66670.jpg",
+    "/imgi_62_DSCF7571__54865.jpg",
+    "/imgi_3_DSCF6657__48621.jpg",
   ];
 }
 
