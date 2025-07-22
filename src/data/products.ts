@@ -42,6 +42,24 @@ for (let i = 0; i < 10; i++) {
   });
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0705SP (momotaro-jeans-1)
+const momotaro0705SP = dummyProducts.find(p => p.id === 'momotaro-jeans-1');
+if (momotaro0705SP) {
+  momotaro0705SP.imageUrls = [
+    "/DSC_0513_800x.jpg",
+    "/MomotaroGTB-Button_800x.jpg",
+    "/MomotaroGTB-BackPocket_800x.jpg",
+    "/Momotaro-PinkInseam_copy_800x.jpg",
+    "/GTB-FrontFlatSlant_800x.jpg",
+    "/DSC_0478_800x.jpg",
+    "/DSC_0485_800x.jpg",
+    "/DSC_0476_800x.jpg",
+    "/Momotaro-0705sp-RightStand1_800x.jpg",
+    "/Momotaro-0705sp-BackStand2_800x.jpg",
+    "/Momotaro-0705sp-LeftStand1_800x.jpg",
+  ];
+}
+
 // 10 produk Evisu Jeans
 const evisuImages = [
   "/evisu-jeans-1.jpg",
