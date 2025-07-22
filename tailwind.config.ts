@@ -91,7 +91,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        handwriting: ['Dancing Script', 'cursive'], // Menukar fon tulisan tangan kepada Dancing Script
+        handwriting: ['Playfair Display', 'serif'], // Menukar fon tulisan tangan kepada Playfair Display
       },
     },
   },
