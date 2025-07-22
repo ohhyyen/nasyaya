@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, ShoppingCart } from "lucide-react"; // Import ShoppingCart icon
 
 const Navbar: React.FC = () => {
   return (
     <nav className="backdrop-blur-md shadow-md p-4 fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-sm font-bold text-white font-custom"> {/* Tukar text-base kepada text-sm di sini */}
+        <Link to="/" className="text-sm font-bold text-white font-custom">
           Nasyaya Collection
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-4 items-center"> {/* Tambah items-center */}
           <Button asChild variant="ghost" className="text-white hover:bg-white/20 hover:text-white">
             <Link to="/pakaian">Produk Pakaian</Link>
           </Button>
@@ -25,6 +25,12 @@ const Navbar: React.FC = () => {
           </Button>
           <Button asChild variant="ghost" className="text-white hover:bg-white/20 hover:text-white">
             <Link to="/hubungi-kami">Hubungi Kami</Link>
+          </Button>
+          <Button asChild variant="ghost" size="icon" className="text-white hover:bg-white/20 hover:text-white"> {/* Butang Bakul */}
+            <Link to="/bakul">
+              <ShoppingCart className="h-5 w-5" />
+              <span className="sr-only">Bakul Beli-belah</span>
+            </Link>
           </Button>
         </div>
 
@@ -50,6 +56,9 @@ const Navbar: React.FC = () => {
                 </Link>
                 <Link to="/hubungi-kami" className="text-lg font-medium hover:text-gray-300" onClick={() => document.getElementById('sheet-close-button')?.click()}>
                   Hubungi Kami
+                </Link>
+                <Link to="/bakul" className="text-lg font-medium hover:text-gray-300 flex items-center gap-2" onClick={() => document.getElementById('sheet-close-button')?.click()}> {/* Butang Bakul untuk mobile */}
+                  <ShoppingCart className="h-5 w-5" /> Bakul Beli-belah
                 </Link>
               </nav>
             </SheetContent>

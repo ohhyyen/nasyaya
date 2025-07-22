@@ -10,7 +10,8 @@ import FragranceProductList from "./pages/FragranceProductList";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Navbar from "./components/Navbar";
-import ProductDetailPage from "./pages/ProductDetailPage"; // Import ProductDetailPage
+import ProductDetailPage from "./pages/ProductDetailPage";
+import CartPage from "./pages/CartPage"; // Import CartPage
 
 const queryClient = new QueryClient();
 
@@ -31,7 +32,8 @@ const App = () => (
               <Route path="/wangian" element={<FragranceProductList />} />
               <Route path="/tentang-kami" element={<AboutUs />} />
               <Route path="/hubungi-kami" element={<ContactUs />} />
-              <Route path="/products/:productId" element={<ProductDetailPage />} /> {/* Laluan baharu untuk butiran produk */}
+              <Route path="/products/:productId" element={<ProductDetailPage />} />
+              <Route path="/bakul" element={<CartPage />} /> {/* Laluan baharu untuk bakul */}
               {/* TAMBAH SEMUA LALUAN KUSTOM DI ATAS LALUAN CATCH-ALL "*" */}
               <Route path="*" element={<NotFound />} />
             </Routes>
