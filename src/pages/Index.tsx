@@ -3,7 +3,7 @@ import { MadeWithDyad } from "@/components/made-with-dyad";
 const Index = () => {
   return (
     <div className="flex-grow flex flex-col items-center justify-center text-center max-w-2xl mx-auto text-white p-4">
-      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-48 sm:h-72 mb-0" /> {/* Mengurangkan ketinggian dari h-64 sm:h-96 kepada h-48 sm:h-72 */}
+      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-64 sm:h-96 mb-0" />
       <h1 className="text-2xl font-custom font-light mb-0">
         Selamat Datang ke
       </h1>
