@@ -13,18 +13,6 @@ const Index = () => {
         Terokai koleksi pakaian moden dan wangian solat eksklusif kami.
         Kami menawarkan produk berkualiti tinggi untuk memenuhi keperluan gaya dan ibadah anda.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4">
-        <Button asChild className="px-8 py-6 text-lg">
-          <Link to="/pakaian">
-            <Shirt className="mr-2 h-5 w-5" /> Lihat Pakaian
-          </Link>
-        </Button>
-        <Button asChild variant="outline" className="px-8 py-6 text-lg text-white border-white hover:bg-white hover:text-gray-900">
-          <Link to="/wangian">
-            <SprayCan className="mr-2 h-5 w-5" /> Lihat Wangian
-          </Link>
-        </Button>
-      </div>
       {/* Komponen MadeWithDyad perlu kelihatan pada latar belakang gelap */}
       <div className="mt-8">
         <MadeWithDyad />
