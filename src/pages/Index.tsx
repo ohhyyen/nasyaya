@@ -9,7 +9,7 @@ const Index = () => {
       <h1 className="text-4xl font-handwriting font-light mb-2">
         Selamat Datang ke
       </h1>
-      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-24 sm:h-32 mb-6" />
+      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-40 sm:h-64 mb-6" />
       <h1 className="text-4xl font-handwriting font-light mb-6">
         NASYAYA COLLECTION!
       </h1>
