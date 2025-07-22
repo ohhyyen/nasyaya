@@ -16,13 +16,13 @@ const ClothingProductList: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <div className="flex items-center mb-8">
+      <div className="flex items-center mb-8 pt-4"> {/* Tambah pt-4 untuk padding atas */}
         <Button variant="ghost" size="icon" asChild>
           <Link to="/">
-            <ArrowLeft className="h-5 w-5" />
+            <ArrowLeft className="h-5 w-5 text-white" /> {/* Tambah text-white */}
           </Link>
         </Button>
-        <h1 className="text-3xl font-bold text-center flex-grow">Produk Pakaian Kami</h1>
+        <h1 className="text-3xl font-bold text-center flex-grow text-white">Produk Pakaian Kami</h1> {/* Tambah text-white di sini */}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {clothingProducts.map((product) => (
