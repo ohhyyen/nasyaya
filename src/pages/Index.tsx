@@ -1,12 +1,9 @@
 import { MadeWithDyad } from "@/components/made-with-dyad";
-import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Shirt, SprayCan } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="flex-grow flex flex-col items-center justify-center text-center max-w-2xl mx-auto text-white p-4">
-      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-64 sm:h-96 mb-6" />
+      <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-64 sm:h-96 mb-2" />
       <h1 className="text-4xl font-handwriting font-light mb-2">
         Selamat Datang ke
       </h1>
