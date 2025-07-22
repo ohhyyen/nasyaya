@@ -60,6 +60,30 @@ if (momotaro0705SP) {
   ];
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0405SP (High Tapered) (momotaro-jeans-2)
+const momotaro0405SP = dummyProducts.find(p => p.id === 'momotaro-jeans-2');
+if (momotaro0405SP) {
+  momotaro0405SP.imageUrls = [
+    "/imgi_2_Momotaro-MMJB0201-Classic-Selvedge-Jeans-MDL-1_2000x.jpg",
+    "/imgi_3_Momotaro-MMJB0201-Classic-Selvedge-Jeans-MDL-2_2000x.jpg",
+    "/imgi_4_Momotaro-MMJB0201-Classic-Selvedge-Jeans-MDL-3_2000x.jpg",
+    "/imgi_5_Momotaro-MMJB0201-Classic-Selvedge-Jeans-MDL-4_2000x.jpg",
+    "/imgi_16_Momotaro-MMJB0101-Classic-Selvedge-Jeans-1_2000x.jpg",
+    "/imgi_14_Momotaro-MMJB0101-Classic-Selvedge-Jeans-3_2000x.jpg",
+    "/imgi_15_Momotaro-MMJB0101-Classic-Selvedge-Jeans-4_2000x.jpg",
+    "/imgi_24_Momotaro-MMJB0101-Classic-Selvedge-Jeans-5_400x.jpg",
+    "/imgi_22_Momotaro-MMJB0101-Classic-Selvedge-Jeans-6_400x.jpg",
+    "/imgi_23_Momotaro-MMJB0101-Classic-Selvedge-Jeans-7_400x.jpg",
+    "/imgi_25_Momotaro-MMJB0101-Classic-Selvedge-Jeans-8_400x.jpg",
+    "/imgi_26_Momotaro-MMJB0101-Classic-Selvedge-Jeans-9_400x.jpg",
+    "/imgi_11_Momotaro-MMJB0101-Classic-Selvedge-Jeans-10_2000x.jpg",
+    "/imgi_12_Momotaro-MMJB0101-Classic-Selvedge-Jeans-11_2000x.jpg",
+    "/imgi_18_Momotaro-MMJB0201-Classic-Selvedge-Jeans-MDL-1_400x.jpg",
+    "/imgi_20_Momotaro-MMJB0201-Classic-Selvedge-Jeans-MDL-3_400x.jpg",
+  ];
+}
+
+
 // 10 produk Evisu Jeans
 const evisuImages = [
   "/evisu-jeans-1.jpg",
