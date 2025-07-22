@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-4 items-center"> {/* Tambah items-center */}
+        <div className="hidden md:flex space-x-4 items-center">
           <Button asChild variant="ghost" className="text-white hover:bg-white/20 hover:text-white">
             <Link to="/pakaian">Produk Pakaian</Link>
           </Button>
@@ -26,10 +26,13 @@ const Navbar: React.FC = () => {
           <Button asChild variant="ghost" className="text-white hover:bg-white/20 hover:text-white">
             <Link to="/hubungi-kami">Hubungi Kami</Link>
           </Button>
-          <Button asChild variant="ghost" size="icon" className="text-white hover:bg-white/20 hover:text-white"> {/* Butang Bakul */}
+          <Button asChild variant="ghost" size="icon" className="text-white hover:bg-white/20 hover:text-white">
             <Link to="/bakul">
-              <ShoppingCart className="h-5 w-5" />
-              <span className="sr-only">Bakul Beli-belah</span>
+              {/* Membungkus ikon dan teks dalam satu span */}
+              <span>
+                <ShoppingCart className="h-5 w-5" />
+                <span className="sr-only">Bakul Beli-belah</span>
+              </span>
             </Link>
           </Button>
         </div>
@@ -57,8 +60,11 @@ const Navbar: React.FC = () => {
                 <Link to="/hubungi-kami" className="text-lg font-medium hover:text-gray-300" onClick={() => document.getElementById('sheet-close-button')?.click()}>
                   Hubungi Kami
                 </Link>
-                <Link to="/bakul" className="text-lg font-medium hover:text-gray-300 flex items-center gap-2" onClick={() => document.getElementById('sheet-close-button')?.click()}> {/* Butang Bakul untuk mobile */}
-                  <ShoppingCart className="h-5 w-5" /> Bakul Beli-belah
+                <Link to="/bakul" className="text-lg font-medium hover:text-gray-300 flex items-center gap-2" onClick={() => document.getElementById('sheet-close-button')?.click()}>
+                  {/* Membungkus ikon dan teks dalam satu span */}
+                  <span>
+                    <ShoppingCart className="h-5 w-5" /> Bakul Beli-belah
+                  </span>
                 </Link>
               </nav>
             </SheetContent>
