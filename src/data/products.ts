@@ -83,6 +83,27 @@ if (momotaro0405SP) {
   ];
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0306SP (Tight Tapered) (momotaro-jeans-3)
+const momotaro0306SP = dummyProducts.find(p => p.id === 'momotaro-jeans-3');
+if (momotaro0306SP) {
+  momotaro0306SP.imageUrls = [
+    "/pasted-image-2025-07-22T10-30-22-358Z-1.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-2.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-3.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-4.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-5.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-6.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-7.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-8.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-9.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-10.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-11.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-12.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-13.jpeg",
+    "/pasted-image-2025-07-22T10-30-22-358Z-14.jpeg",
+  ];
+}
+
 
 // 10 produk Evisu Jeans
 const evisuImages = [
