@@ -131,6 +131,29 @@ if (momotaro0701SP) {
   ];
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0401SP (Classic Straight) (momotaro-jeans-6)
+const momotaro0401SP = dummyProducts.find(p => p.id === 'momotaro-jeans-6');
+if (momotaro0401SP) {
+  momotaro0401SP.imageUrls = [
+    "/imgi_4_5166146da6f888e941323c2fe2e58193.jpg",
+    "/imgi_5_b4f0ea48010a9876918ff30840c2ffdb.jpg",
+    "/imgi_6_54327028ec94424b1e3bb17f76940a7c.jpg",
+    "/imgi_8_9726b745af046197d1355cc34b89811a.jpg",
+    "/imgi_10_637fc31f384c5348806b602de308c535.jpg",
+    "/imgi_11_a7f7bf228553e57071fc6592497ae3f9.jpg",
+    "/imgi_12_771c4e2afa1e9349e038f84b186e1f05.jpg",
+    "/imgi_13_214e6a1f7b32448296b55b512179ae42.jpg",
+    "/imgi_14_a4bc714e8aa85560352a8a02a429e4d1.jpg",
+    "/imgi_15_9129be6ff206d86716797f60faa7790d.jpg",
+    "/imgi_16_49384d3713dba8353b7dcac345984614.jpg",
+    "/imgi_17_8755eb5f9e097b02384f931285e05e32.jpg",
+    "/imgi_18_18bf9866b6bc0b5e62d59eb58caa0bd6.jpg",
+    "/imgi_19_0dab906fb76d14678000ea98a4d9e163.jpg",
+    "/imgi_20_db0a1d6dfff7e4ce19db9144487dc312.jpg",
+    "/imgi_3_151f678786dce394ca43bb684d7881fd.jpg",
+  ];
+}
+
 
 // 10 produk Evisu Jeans
 const evisuImages = [
