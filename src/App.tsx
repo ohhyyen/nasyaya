@@ -18,10 +18,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Navbar /> {/* Tambah Navbar di sini */}
-        <div
-          className="min-h-screen flex flex-col bg-cover bg-center relative"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1516762689617-ad4063c9d095?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
-        >
+        <div className="min-h-screen flex flex-col relative"> {/* Removed background styles */}
           {/* Overlay untuk kebolehbacaan teks yang lebih baik */}
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative z-10 flex-grow pt-[64px]"> {/* Tambah padding untuk menolak kandungan ke bawah bar navigasi */}
