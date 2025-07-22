@@ -273,6 +273,23 @@ if (evisu2010) {
   ];
 }
 
+const evisu2023 = dummyProducts.find(p => p.id === 'evisu-jeans-9');
+if (evisu2023) {
+  evisu2023.imageUrls = [
+    "/imgi_4_33a798414215b55e897d891de0255177496920ae84a8fad831cf874753d47b57.jpg",
+    "/imgi_5_aa2ddfa938c14142df90598f22ff3540fe23ef31e7d98902940aaedcb2cc9312.jpg",
+    "/imgi_6_460ddf2629e7bec9f63a8c40e335e3dfcd8307aaf70c23d3e18c1677aa7a372d.jpg",
+    "/imgi_7_c390627550b5201c23ea050c8297a3056ae0bb9c22473185c353cbc5dad6e0d9.jpg",
+    "/imgi_8_ff9a2e34274cf0d433bf68159481274390b1447264f6677c04f38d53916c9e94.jpg",
+    "/imgi_9_703ef86b3f36e9b1cf498222f8a976bb3f25d06cb9385ad0104eae91742871be.jpg",
+    "/imgi_10_33eefcff251218b546fde924ef2adc77e94ffe7551901da9a1632a3c56fccaa1.jpg",
+    "/imgi_11_6c2a80bf347d677b15f5d01f018cc781c3f59868cc9717d5a0c6a1d3e545770a.jpg",
+    "/imgi_12_5621335c9a9d0e408fe5d785edd62cf37d3e7c1c5dc1e62691bb4855e23638e8.jpg",
+    "/imgi_13_d9b245a675734c96d9f411fbaebe113bb432e74953b4995738600b9178961d00.jpg",
+    "/imgi_14_13c9aaf580548a92bbba8f358cfaec86981f15a7f17683458e8bf5db782c100d.jpg",
+  ];
+}
+
 // Produk Wangian (15 items)
 const fragranceImages = [
   "/wangian-1.jpg",
