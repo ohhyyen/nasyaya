@@ -48,7 +48,7 @@ const ProductDetailPage: React.FC = () => {
                 <CarouselItem key={index}>
                   <div className="p-1">
                     <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
+                      <CardContent className="flex items-center justify-center p-6"> {/* Dibuang aspect-square */}
                         <img
                           src={imageUrl}
                           alt={`${product.name} - Gambar ${index + 1}`}

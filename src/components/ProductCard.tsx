@@ -2,7 +2,7 @@ import React from "react";
 import { Product } from "@/types/product";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom";
 
 interface ProductCardProps {
   product: Product;
@@ -12,12 +12,12 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
   return (
     <Card className="w-full max-w-sm flex flex-col cursor-pointer hover:shadow-lg transition-shadow duration-200">
-      <Link to={`/products/${product.id}`} className="block"> {/* Tambah Link di sini */}
+      <Link to={`/products/${product.id}`} className="block">
         <CardHeader className="p-0">
           <img
             src={product.imageUrls[0]}
             alt={product.name}
-            className="w-full h-48 object-cover rounded-t-lg"
+            className="w-full h-64 object-contain rounded-t-lg"
           />
         </CardHeader>
         <CardContent className="p-4 flex-grow">
