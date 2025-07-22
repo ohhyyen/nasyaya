@@ -118,6 +118,19 @@ if (momotaro0201SP) {
   ];
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0701SP (Tight Straight) (momotaro-jeans-5)
+const momotaro0701SP = dummyProducts.find(p => p.id === 'momotaro-jeans-5');
+if (momotaro0701SP) {
+  momotaro0701SP.imageUrls = [
+    "/imgi_5_ac29591835cbc50291faaab54ef0c233.jpg",
+    "/imgi_6_09930deca6687ea3f038efcdcb7b45fd.jpg",
+    "/imgi_7_511afa50892bad547dede9ed02d8d90b.jpg",
+    "/imgi_8_f7d27276477c87fc8b68e457ee2033ed.jpg",
+    "/imgi_3_97c4577e63e16dfa692b02039096126a.jpg",
+    "/imgi_4_ed264d9ddc3a31f7f4cf7f4e9b261562.jpg",
+  ];
+}
+
 
 // 10 produk Evisu Jeans
 const evisuImages = [
