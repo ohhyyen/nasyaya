@@ -3,27 +3,28 @@ import { Product } from "@/types/product";
 export const dummyProducts: Product[] = [];
 
 // Produk Pakaian (20 items)
-// 5 produk pakaian berharga RM 1000
-for (let i = 1; i <= 5; i++) {
+// 10 produk Momotaro Jeans
+for (let i = 1; i <= 10; i++) {
+  const price = Math.floor(Math.random() * (1800 - 1200 + 1) + 1200); // Harga antara RM 1200 - RM 1800
   dummyProducts.push({
-    id: `pakaian-premium-${i}`,
-    name: `Baju Kurung Eksklusif ${i}`,
-    description: `Baju kurung moden dengan rekaan elegan dan fabrik mewah, sesuai untuk majlis istimewa.`,
-    price: 1000.00,
-    imageUrl: `https://via.placeholder.com/300x300/FFDDC1/000000?text=Pakaian+Premium+${i}`,
+    id: `momotaro-jeans-${i}`,
+    name: `Momotaro Jeans Vintage ${i}`,
+    description: `Seluar jeans denim premium dari Momotaro, buatan tangan dengan kualiti terbaik dan rekaan klasik.`,
+    price: price,
+    imageUrl: `https://via.placeholder.com/300x300/ADD8E6/000000?text=Momotaro+${i}`,
     category: "Pakaian",
   });
 }
 
-// 15 produk pakaian lain dengan harga berbeza
-for (let i = 6; i <= 20; i++) {
-  const price = Math.floor(Math.random() * (300 - 80 + 1) + 80); // Harga antara RM 80 - RM 300
+// 10 produk Evisu Jeans
+for (let i = 1; i <= 10; i++) {
+  const price = Math.floor(Math.random() * (1500 - 900 + 1) + 900); // Harga antara RM 900 - RM 1500
   dummyProducts.push({
-    id: `pakaian-${i}`,
-    name: `Baju Kurung Moden ${i}`,
-    description: `Baju kurung moden dengan rekaan elegan, sesuai untuk majlis formal dan kasual.`,
+    id: `evisu-jeans-${i}`,
+    name: `Evisu Jeans Daicock ${i}`,
+    description: `Seluar jeans Evisu dengan rekaan ikonik dan kualiti denim Jepun yang terkenal.`,
     price: price,
-    imageUrl: `https://via.placeholder.com/300x300/C1FFDD/000000?text=Pakaian+${i}`,
+    imageUrl: `https://via.placeholder.com/300x300/FFB6C1/000000?text=Evisu+${i}`,
     category: "Pakaian",
   });
 }
