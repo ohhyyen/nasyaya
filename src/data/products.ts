@@ -1,52 +1,43 @@
 import { Product } from "@/types/product";
 
-export const dummyProducts: Product[] = [
-  {
-    id: "1",
-    name: "Baju Kurung Moden",
-    description: "Baju kurung moden dengan rekaan elegan, sesuai untuk majlis formal dan kasual.",
-    price: 120.00,
-    imageUrl: "https://via.placeholder.com/300x300/FFDDC1/000000?text=Baju+Kurung",
-    category: "Pakaian Wanita",
-  },
-  {
-    id: "2",
-    name: "Kemeja Batik Lelaki",
-    description: "Kemeja batik kontemporari, selesa dan bergaya untuk pelbagai acara.",
-    price: 85.00,
-    imageUrl: "https://via.placeholder.com/300x300/C1FFDD/000000?text=Kemeja+Batik",
-    category: "Pakaian Lelaki",
-  },
-  {
-    id: "3",
-    name: "Telekung Sulam Eksklusif",
-    description: "Telekung dengan sulaman tangan yang halus, selesa dan cantik untuk solat.",
-    price: 150.00,
-    imageUrl: "https://via.placeholder.com/300x300/DDC1FF/000000?text=Telekung",
-    category: "Alat Solat",
-  },
-  {
-    id: "4",
-    name: "Pati Wangian Kasturi",
-    description: "Wangian kasturi asli, sesuai untuk kegunaan harian dan ibadah.",
-    price: 45.00,
-    imageUrl: "https://via.placeholder.com/300x300/C1DDC1/000000?text=Wangian+Kasturi",
-    category: "Wangian Solat",
-  },
-  {
-    id: "5",
-    name: "Jubah Lelaki Premium",
-    description: "Jubah moden dengan fabrik berkualiti tinggi, selesa dan kemas.",
-    price: 180.00,
-    imageUrl: "https://via.placeholder.com/300x300/FFC1DD/000000?text=Jubah+Lelaki",
-    category: "Pakaian Lelaki",
-  },
-  {
-    id: "6",
-    name: "Selendang Chiffon",
-    description: "Selendang chiffon lembut dan mudah dibentuk, pelbagai warna menarik.",
-    price: 35.00,
-    imageUrl: "https://via.placeholder.com/300x300/DDC1C1/000000?text=Selendang",
-    category: "Pakaian Wanita",
-  },
-];
+export const dummyProducts: Product[] = [];
+
+// Produk Pakaian (20 items)
+// 5 produk pakaian berharga RM 1000
+for (let i = 1; i <= 5; i++) {
+  dummyProducts.push({
+    id: `pakaian-premium-${i}`,
+    name: `Baju Kurung Eksklusif ${i}`,
+    description: `Baju kurung moden dengan rekaan elegan dan fabrik mewah, sesuai untuk majlis istimewa.`,
+    price: 1000.00,
+    imageUrl: `https://via.placeholder.com/300x300/FFDDC1/000000?text=Pakaian+Premium+${i}`,
+    category: "Pakaian",
+  });
+}
+
+// 15 produk pakaian lain dengan harga berbeza
+for (let i = 6; i <= 20; i++) {
+  const price = Math.floor(Math.random() * (300 - 80 + 1) + 80); // Harga antara RM 80 - RM 300
+  dummyProducts.push({
+    id: `pakaian-${i}`,
+    name: `Baju Kurung Moden ${i}`,
+    description: `Baju kurung moden dengan rekaan elegan, sesuai untuk majlis formal dan kasual.`,
+    price: price,
+    imageUrl: `https://via.placeholder.com/300x300/C1FFDD/000000?text=Pakaian+${i}`,
+    category: "Pakaian",
+  });
+}
+
+// Produk Wangian (15 items)
+// 15 produk wangian berharga antara RM 300 - RM 500
+for (let i = 1; i <= 15; i++) {
+  const price = Math.floor(Math.random() * (500 - 300 + 1) + 300); // Harga antara RM 300 - RM 500
+  dummyProducts.push({
+    id: `wangian-${i}`,
+    name: `Pati Wangian Kasturi Asli ${i}`,
+    description: `Wangian kasturi asli dengan aroma tahan lama, sesuai untuk kegunaan harian dan ibadah.`,
+    price: price,
+    imageUrl: `https://via.placeholder.com/300x300/DDC1FF/000000?text=Wangian+${i}`,
+    category: "Wangian",
+  });
+}
