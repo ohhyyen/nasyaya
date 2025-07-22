@@ -174,6 +174,22 @@ if (momotaro0301SP) {
   ];
 }
 
+// Tandakan produk Momotaro yang habis dijual
+const momotaro0205SP = dummyProducts.find(p => p.id === 'momotaro-jeans-8');
+if (momotaro0205SP) {
+  momotaro0205SP.isSoldOut = true;
+}
+
+const momotaro0700SP = dummyProducts.find(p => p.id === 'momotaro-jeans-9');
+if (momotaro0700SP) {
+  momotaro0700SP.isSoldOut = true;
+}
+
+const momotaro0400SP = dummyProducts.find(p => p.id === 'momotaro-jeans-10');
+if (momotaro0400SP) {
+  momotaro0400SP.isSoldOut = true;
+}
+
 
 // 10 produk Evisu Jeans
 const evisuImages = [
@@ -212,6 +228,27 @@ for (let i = 0; i < 10; i++) {
     imageUrls: [evisuImages[i % evisuImages.length], evisuImages[(i + 1) % evisuImages.length]], // Contoh: 2 gambar per produk
     category: "Pakaian",
   });
+}
+
+// Tandakan produk Evisu yang habis dijual
+const evisu2000 = dummyProducts.find(p => p.id === 'evisu-jeans-1');
+if (evisu2000) {
+  evisu2000.isSoldOut = true;
+}
+
+const evisu2001 = dummyProducts.find(p => p.id === 'evisu-jeans-2');
+if (evisu2001) {
+  evisu2001.isSoldOut = true;
+}
+
+const evisu2004 = dummyProducts.find(p => p.id === 'evisu-jeans-3');
+if (evisu2004) {
+  evisu2004.isSoldOut = true;
+}
+
+const evisu2005 = dummyProducts.find(p => p.id === 'evisu-jeans-4');
+if (evisu2005) {
+  evisu2005.isSoldOut = true;
 }
 
 // Produk Wangian (15 items)

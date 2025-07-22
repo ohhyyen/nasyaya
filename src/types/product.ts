@@ -5,4 +5,5 @@ export interface Product {
   price: number;
   imageUrls: string[]; // Diubah dari imageUrl: string;
   category: string;
+  isSoldOut?: boolean; // Tambah sifat isSoldOut
 }

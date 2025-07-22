@@ -11,7 +11,12 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
   return (
-    <Card className="w-full max-w-sm flex flex-col cursor-pointer hover:shadow-lg transition-shadow duration-200">
+    <Card className="w-full max-w-sm flex flex-col cursor-pointer hover:shadow-lg transition-shadow duration-200 relative">
+      {product.isSoldOut && (
+        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center rounded-lg z-10">
+          <span className="text-white text-2xl font-bold rotate-[-15deg]">SOLD OUT</span>
+        </div>
+      )}
       <Link to={`/products/${product.id}`} className="block">
         <CardHeader className="p-0">
           <img
@@ -29,8 +34,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
         </CardContent>
       </Link>
       <CardFooter className="p-4 pt-0">
-        <Button onClick={() => onAddToCart(product)} className="w-full">
-          Tambah ke Bakul
+        <Button onClick={() => onAddToCart(product)} className="w-full" disabled={product.isSoldOut}>
+          {product.isSoldOut ? "Habis Dijual" : "Tambah ke Bakul"}
         </Button>
       </CardFooter>
     </Card>
