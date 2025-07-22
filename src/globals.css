@@ -107,7 +107,7 @@
   }
 
   body {
-    @apply text-foreground font-custom; /* Apply custom font to body */
+    @apply text-foreground; /* Buang font-custom di sini */
     background-image: url('/background.jpg');
     background-size: cover;
     background-position: center;
