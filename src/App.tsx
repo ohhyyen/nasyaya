@@ -5,8 +5,9 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import ClothingProductList from "./pages/ClothingProductList"; // Import new clothing list
-import FragranceProductList from "./pages/FragranceProductList"; // Import new fragrance list
+import ClothingProductList from "./pages/ClothingProductList";
+import FragranceProductList from "./pages/FragranceProductList";
+import Navbar from "./components/Navbar"; // Import Navbar
 
 const queryClient = new QueryClient();
 
@@ -16,13 +17,16 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/pakaian" element={<ClothingProductList />} /> {/* New route for clothing */}
-          <Route path="/wangian" element={<FragranceProductList />} /> {/* New route for fragrance */}
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <Navbar /> {/* Tambah Navbar di sini */}
+        <div className="pt-[64px]"> {/* Tambah padding untuk menolak kandungan ke bawah bar navigasi */}
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/pakaian" element={<ClothingProductList />} />
+            <Route path="/wangian" element={<FragranceProductList />} />
+            {/* TAMBAH SEMUA LALUAN KUSTOM DI ATAS LALUAN CATCH-ALL "*" */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
