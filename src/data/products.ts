@@ -108,15 +108,15 @@ if (momotaro0306SP) {
 const momotaro0201SP = dummyProducts.find(p => p.id === 'momotaro-jeans-4');
 if (momotaro0201SP) {
   momotaro0201SP.imageUrls = [
-    "/pasted-image-2025-07-22T10-33-30-804Z-1.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-2.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-3.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-4.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-5.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-6.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-7.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-8.jpeg",
-    "/pasted-image-2025-07-22T10-33-30-804Z-9.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-1.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-2.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-3.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-4.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-5.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-6.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-7.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-8.jpeg",
+    "/pasted-image-2025-07-22T10-35-26-080Z-9.jpeg",
   ];
 }
 
