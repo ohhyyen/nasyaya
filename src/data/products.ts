@@ -46,6 +46,7 @@ for (let i = 0; i < 10; i++) {
 const momotaro0705SP = dummyProducts.find(p => p.id === 'momotaro-jeans-1');
 if (momotaro0705SP) {
   momotaro0705SP.imageUrls = [
+    "/Momotaro-0705sp-BackStand2_800x.jpg", // Ini adalah gambar utama yang baru
     "/DSC_0513_800x.jpg",
     "/MomotaroGTB-Button_800x.jpg",
     "/MomotaroGTB-BackPocket_800x.jpg",
@@ -55,7 +56,6 @@ if (momotaro0705SP) {
     "/DSC_0485_800x.jpg",
     "/DSC_0476_800x.jpg",
     "/Momotaro-0705sp-RightStand1_800x.jpg",
-    "/Momotaro-0705sp-BackStand2_800x.jpg",
     "/Momotaro-0705sp-LeftStand1_800x.jpg",
   ];
 }
