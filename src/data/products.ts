@@ -5,16 +5,16 @@ export const dummyProducts: Product[] = [];
 // Produk Pakaian (20 items)
 // 10 produk Momotaro Jeans
 const momotaroImages = [
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0705SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0405SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0306SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0201SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0701SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0401SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0301SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0205SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0700SP_1_1024x1024.jpg?v=1628000000",
-  "https://cdn.shopify.com/s/files/1/0070/1922/products/0400SP_1_1024x1024.jpg?v=1628000000",
+  "/momotaro-jeans-1.jpg",
+  "/momotaro-jeans-2.jpg",
+  "/momotaro-jeans-3.jpg",
+  "/momotaro-jeans-4.jpg",
+  "/momotaro-jeans-5.jpg",
+  "/momotaro-jeans-6.jpg",
+  "/momotaro-jeans-7.jpg",
+  "/momotaro-jeans-8.jpg",
+  "/momotaro-jeans-9.jpg",
+  "/momotaro-jeans-10.jpg",
 ];
 
 const momotaroNames = [
@@ -44,16 +44,16 @@ for (let i = 0; i < 10; i++) {
 
 // 10 produk Evisu Jeans
 const evisuImages = [
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9017CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9018CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9019CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9020CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9021CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9022CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9023CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9024CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9025CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
-  "https://www.evisu.com/cdn/shop/products/2ESHTM3JE9026CSDN_INDIGO_F_1024x1024.jpg?v=1678900000",
+  "/evisu-jeans-1.jpg",
+  "/evisu-jeans-2.jpg",
+  "/evisu-jeans-3.jpg",
+  "/evisu-jeans-4.jpg",
+  "/evisu-jeans-5.jpg",
+  "/evisu-jeans-6.jpg",
+  "/evisu-jeans-7.jpg",
+  "/evisu-jeans-8.jpg",
+  "/evisu-jeans-9.jpg",
+  "/evisu-jeans-10.jpg",
 ];
 
 const evisuNames = [
@@ -83,21 +83,21 @@ for (let i = 0; i < 10; i++) {
 
 // Produk Wangian (15 items)
 const fragranceImages = [
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
-  "https://m.media-amazon.com/images/I/61-1-0-0-L._AC_UF894,1000_QL80_.jpg",
+  "/wangian-1.jpg",
+  "/wangian-2.jpg",
+  "/wangian-3.jpg",
+  "/wangian-4.jpg",
+  "/wangian-5.jpg",
+  "/wangian-6.jpg",
+  "/wangian-7.jpg",
+  "/wangian-8.jpg",
+  "/wangian-9.jpg",
+  "/wangian-10.jpg",
+  "/wangian-11.jpg",
+  "/wangian-12.jpg",
+  "/wangian-13.jpg",
+  "/wangian-14.jpg",
+  "/wangian-15.jpg",
 ];
 
 for (let i = 0; i < 15; i++) {
