@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-md shadow-md p-4 fixed w-full top-0 z-50">
+    <nav className="backdrop-blur-md shadow-md p-4 fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-gray-900 dark:text-white">
           NASYAYA COLLECTION
