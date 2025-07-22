@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="backdrop-blur-md shadow-md p-4 fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-base font-bold text-white font-custom"> {/* Tukar text-lg kepada text-base di sini */}
+        <Link to="/" className="text-sm font-bold text-white font-custom"> {/* Tukar text-base kepada text-sm di sini */}
           Nasyaya Collection
         </Link>
 
