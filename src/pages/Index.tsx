@@ -11,7 +11,7 @@ const Index = () => {
       </h1>
       <img src="/Nasyaya.png" alt="Nasyaya Collection Logo" className="h-64 sm:h-96 mb-6" />
       <h1 className="text-4xl font-handwriting font-light mb-6">
-        NASYAYA COLLECTION!
+        NASYAYA COLLECTION
       </h1>
       <p className="text-lg mb-8">
         Terokai koleksi pakaian moden dan wangian solat eksklusif kami.
