@@ -104,6 +104,22 @@ if (momotaro0306SP) {
   ];
 }
 
+// Mengemas kini URL gambar untuk produk Momotaro 0201SP (Natural Tapered) (momotaro-jeans-4)
+const momotaro0201SP = dummyProducts.find(p => p.id === 'momotaro-jeans-4');
+if (momotaro0201SP) {
+  momotaro0201SP.imageUrls = [
+    "/pasted-image-2025-07-22T10-33-30-804Z-1.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-2.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-3.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-4.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-5.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-6.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-7.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-8.jpeg",
+    "/pasted-image-2025-07-22T10-33-30-804Z-9.jpeg",
+  ];
+}
+
 
 // 10 produk Evisu Jeans
 const evisuImages = [
