@@ -11,10 +11,18 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { toast } from "sonner"; // Import toast
 
 const ProductDetailPage: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
   const product = dummyProducts.find((p) => p.id === productId);
+
+  const handleAddToCart = () => {
+    if (product) {
+      toast.success(`${product.name} telah ditambah ke bakul!`);
+      console.log(`Added ${product.name} to cart`);
+    }
+  };
 
   if (!product) {
     return (
@@ -79,7 +87,13 @@ const ProductDetailPage: React.FC = () => {
               <p className="text-3xl font-bold text-primary-foreground mb-6">
                 RM {product.price.toFixed(2)}
               </p>
-              <Button className="w-full text-lg py-3">Tambah ke Bakul</Button>
+              <Button 
+                onClick={handleAddToCart} 
+                className="w-full text-lg py-3"
+                disabled={product.isSoldOut} // Disable button if sold out
+              >
+                {product.isSoldOut ? "Habis Dijual" : "Tambah ke Bakul"}
+              </Button>
             </CardContent>
           </Card>
         </div>

@@ -273,6 +273,16 @@ if (evisu2010) {
   ];
 }
 
+const evisu2017 = dummyProducts.find(p => p.id === 'evisu-jeans-7');
+if (evisu2017) {
+  evisu2017.isSoldOut = true;
+}
+
+const evisu2020 = dummyProducts.find(p => p.id === 'evisu-jeans-8');
+if (evisu2020) {
+  evisu2020.isSoldOut = true;
+}
+
 const evisu2023 = dummyProducts.find(p => p.id === 'evisu-jeans-9');
 if (evisu2023) {
   evisu2023.imageUrls = [
@@ -289,6 +299,13 @@ if (evisu2023) {
     "/imgi_14_13c9aaf580548a92bbba8f358cfaec86981f15a7f17683458e8bf5db782c100d.jpg",
   ];
 }
+
+const evisu2026 = dummyProducts.find(p => p.id === 'evisu-jeans-10');
+if (evisu2026) {
+  evisu2026.isSoldOut = true;
+  evisu2026.name = "Evisu 2026 (Coming Soon)";
+}
+
 
 // Produk Wangian (15 items)
 const fragranceImages = [
